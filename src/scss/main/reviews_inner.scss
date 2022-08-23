@@ -8,14 +8,15 @@
 
   &:before {
     content: "";
-    background: url(/img/reviews/review_background.svg) no-repeat;
+    background: url("/src/img/main/reviews/review_background.svg") no-repeat;
     background-size: contain;
-    width: 802px;
-    height: 425px;
+    width: 1141px;
+    height: 570px;
     display: block;
     position: absolute;
-    top: -40px;
-    right: 0;
+    z-index: -2;
+    top: -95px;
+    right: -149px;
   }
 
   &:after {
@@ -32,7 +33,6 @@
 
 
 .reviews_img {
-  width: 30%;
   margin-left: -100px;
 
   z-index: 2;

@@ -6,7 +6,7 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  background: #d51111;
+  background: #ffffff;
   letter-spacing: 0.03em;
 }
 
@@ -560,7 +560,7 @@ ul, li, a {
 }
 
 .reviews {
-  padding: 89px 0 100px;
+  padding: 160px 0 100px;
 }
 
 .reviews_inner {
@@ -576,14 +576,15 @@ ul, li, a {
 }
 .reviews_inner:before {
   content: "";
-  background: url(/img/reviews/review_background.svg) no-repeat;
+  background: url("/src/img/main/reviews/review_background.svg") no-repeat;
   background-size: contain;
-  width: 802px;
-  height: 425px;
+  width: 1141px;
+  height: 570px;
   display: block;
   position: absolute;
-  top: -40px;
-  right: 0;
+  z-index: -2;
+  top: -95px;
+  right: -149px;
 }
 .reviews_inner:after {
   content: "";
@@ -596,7 +597,6 @@ ul, li, a {
 }
 
 .reviews_img {
-  width: 30%;
   margin-left: -100px;
   z-index: 2;
 }
