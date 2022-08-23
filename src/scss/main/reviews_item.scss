@@ -1,0 +1,47 @@
+.reviews_item {
+  background: white;
+  box-shadow: 0 4px 11px 0 #0000001A;
+
+  padding: 31px 50px 48px 46px;
+
+  width: 100%;
+  max-width: 610px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  z-index: 1;
+
+  p {
+    width: 100%;
+    max-width: 379px;
+  }
+
+  &:before {
+    content: '';
+    background: url("/img/reviews/quote.svg") no-repeat;
+    background-size: contain;
+    width: 73px;
+    height: 54px;
+    display: block;
+    position: absolute;
+    top: 27%;
+    left: 8%;
+    z-index: -1;
+
+  }
+
+
+}
+
+.reviews_subtitle {
+  font-size: 14px;
+  font-weight: 600;
+
+}
+
+.reviews_text {
+  font-size: 13px;
+  color: #7C7878;
+  margin-bottom: 30px;
+}

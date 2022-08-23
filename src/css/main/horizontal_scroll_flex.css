@@ -1,0 +1,52 @@
+.horizontal_scroll_flex {
+  width: 100%;
+  background: white;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.horizontal_scroll_flex:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #ABA6A6;
+  display: block;
+}
+
+.btn_prev {
+  display: block;
+  position: absolute;
+  left: 18px;
+  top: 45%;
+  z-index: 2;
+  color: transparent;
+}
+.btn_prev:before {
+  content: "";
+  border-bottom: 2px solid #EF3268;
+  border-left: 2px solid #EF3268;
+  display: block;
+  width: 15px;
+  height: 15px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.btn_next {
+  display: block;
+  position: absolute;
+  top: 45%;
+  right: 0;
+  z-index: 2;
+  color: transparent;
+}
+.btn_next:before {
+  content: "";
+  border-top: 2px solid #EF3268;
+  border-right: 2px solid #EF3268;
+  display: block;
+  width: 15px;
+  height: 15px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}

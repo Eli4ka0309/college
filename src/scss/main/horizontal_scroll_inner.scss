@@ -1,0 +1,72 @@
+.horizontal_scroll_inner {
+  width: 100%;
+  max-width: 1054px;
+  margin: 0 auto;
+  border-radius: 10px 0 0 10px;
+  position: relative;
+  padding: 0 30px;
+
+
+}
+
+.horizontal_scroll_inner .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 50;
+  font-size: 0;
+  color: transparent;
+}
+
+.horizontal_scroll_inner .slick-arrow.slick-prev {
+  left: 0;
+
+
+  &:before {
+    content: "";
+    border-bottom: 2px solid #EF3268;
+    border-left: 2px solid #EF3268;
+    display: block;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+  }
+
+}
+
+.horizontal_scroll_inner .slick-arrow.slick-next {
+  right: 0;
+
+
+  &:after {
+    content: "";
+    border-top: 2px solid #EF3268;
+    border-right: 2px solid #EF3268;
+    display: block;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+
+  }
+}
+
+.image {
+  width: 100%;
+
+}
+
+
+.slick-list {
+  overflow: hidden;
+}
+
+
+.slick-track {
+  display: flex;
+}
+
+
+

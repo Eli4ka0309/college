@@ -1,0 +1,27 @@
+.form_search {
+  border: #EF3268 1px solid;
+  border-radius: 5px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+
+.label_search {
+  font-size: 14px;
+  width: 100%;
+
+}
+
+.input_search {
+  width: 100%;
+  padding: 0 10px;
+  margin-top: 4px;
+  opacity: 1;
+}
+:focus::-webkit-input-placeholder {
+  color: transparent;
+  transition: 0.4s ease;
+  opacity: 0;
+}
+

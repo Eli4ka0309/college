@@ -1,0 +1,45 @@
+.specialty_profession {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 4px 9px 0 #00000040;
+  background: #F3F3F3;
+  position: relative;
+  width: 100%;
+
+
+}
+
+.profession_img {
+  width: 100%;
+  max-width: 682px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.profession_txt {
+  margint: 0 40px;
+
+
+}
+
+.profession_txt_block {
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+}
+
+.profession_txt_subtitle {
+  color: $pinkAccent;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.profession_txt_title {
+  font-weight: 600;
+}

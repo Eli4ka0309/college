@@ -1,0 +1,32 @@
+.footer_head {
+  background: #EF3268;
+  color: white;
+  width: 100%;
+
+}
+
+.footer_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0;
+
+  p {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  a {
+    border: white 1px solid;
+    padding: 13px 45px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+
+    &:hover {
+      background: white;
+      color: #EF3268;
+    }
+
+  }
+}

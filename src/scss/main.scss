@@ -1,0 +1,62 @@
+//base//
+@import "base/_base";
+@import "base/_reset";
+@import "base/_vars";
+
+
+
+//foots//
+@import "fonts/fonts";
+
+
+
+
+//main//
+@import "main/header";
+@import "main/header_flex";
+@import "main/header_nav";
+@import "main/header_sub_nav";
+@import "main/form_search";
+
+
+@import "main/intro";
+@import "main/intro_row";
+@import "main/intro_inner";
+@import "main/horizontal_scroll";
+@import "main/horizontal_scroll_inner";
+@import "main/horizontal_scroll_flex";
+
+@import "main/reverse";
+@import "main/reverse_row";
+@import "main/reverse_form";
+
+@import "main/reviews";
+@import "main/reviews_inner";
+@import "main/reviews_row";
+@import "main/reviews_switch";
+@import "main/reviews_item";
+
+@import "main/footer";
+@import "main/footer_head";
+@import "main/footer_body";
+@import "main/footer_info";
+@import "main/footer_info-head";
+@import "main/footer_info-body";
+@import "main/footer_link";
+@import "main/copyright";
+
+
+
+
+
+//specialties//
+@import "specialties/specialty";
+@import "specialties/specialty_row";
+@import "specialties/specialty_block";
+@import "specialties/specialty_profession";
+@import "specialties/specialty_description";
+
+
+
+
+

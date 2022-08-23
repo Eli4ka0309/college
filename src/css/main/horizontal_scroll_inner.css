@@ -1,0 +1,18 @@
+.horizontal_scroll_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.image_1 {
+  width: 50%;
+}
+
+.sub_img_1 {
+  width: 50%;
+  border-right: -30px white solid;
+}
