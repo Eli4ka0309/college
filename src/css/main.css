@@ -4,7 +4,6 @@ html, body {
   font-size: 15px;
   color: black;
   width: 100%;
-  height: 100%;
   margin: 0 auto;
   background: #ffffff;
   letter-spacing: 0.03em;
@@ -259,6 +258,127 @@ ul, li, a {
   opacity: 0;
 }
 
+.horizontal_scroll {
+  position: relative;
+  padding: 100px 0 50px;
+}
+
+.horizontal_scroll_flex {
+  width: 100%;
+  background: white;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.horizontal_scroll_flex:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #ABA6A6;
+  display: block;
+}
+
+.btn_prev {
+  display: block;
+  position: absolute;
+  left: 18px;
+  top: 45%;
+  z-index: 2;
+  color: transparent;
+}
+.btn_prev:before {
+  content: "";
+  border-bottom: 2px solid #EF3268;
+  border-left: 2px solid #EF3268;
+  display: block;
+  width: 15px;
+  height: 15px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.btn_next {
+  display: block;
+  position: absolute;
+  top: 45%;
+  right: 0;
+  z-index: 2;
+  color: transparent;
+}
+.btn_next:before {
+  content: "";
+  border-top: 2px solid #EF3268;
+  border-right: 2px solid #EF3268;
+  display: block;
+  width: 15px;
+  height: 15px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.horizontal_scroll_inner {
+  width: 100%;
+  max-width: 1054px;
+  margin: 0 auto;
+  border-radius: 10px 0 0 10px;
+  position: relative;
+  padding: 0 30px;
+}
+
+.horizontal_scroll_inner .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 50;
+  font-size: 0;
+  color: transparent;
+}
+
+.horizontal_scroll_inner .slick-arrow.slick-prev {
+  left: 0;
+}
+.horizontal_scroll_inner .slick-arrow.slick-prev:before {
+  content: "";
+  border-bottom: 2px solid #EF3268;
+  border-left: 2px solid #EF3268;
+  display: block;
+  width: 15px;
+  height: 15px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+}
+
+.horizontal_scroll_inner .slick-arrow.slick-next {
+  right: 0;
+}
+.horizontal_scroll_inner .slick-arrow.slick-next:after {
+  content: "";
+  border-top: 2px solid #EF3268;
+  border-right: 2px solid #EF3268;
+  display: block;
+  width: 15px;
+  height: 15px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+}
+
+.image {
+  width: 100%;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .intro {
   padding-bottom: 100px;
 }
@@ -370,127 +490,6 @@ ul, li, a {
   position: absolute;
   left: 35px;
   z-index: 1;
-}
-
-.horizontal_scroll {
-  position: relative;
-  padding: 100px 0 50px;
-}
-
-.horizontal_scroll_inner {
-  width: 100%;
-  max-width: 1054px;
-  margin: 0 auto;
-  border-radius: 10px 0 0 10px;
-  position: relative;
-  padding: 0 30px;
-}
-
-.horizontal_scroll_inner .slick-arrow {
-  position: absolute;
-  top: 50%;
-  z-index: 50;
-  font-size: 0;
-  color: transparent;
-}
-
-.horizontal_scroll_inner .slick-arrow.slick-prev {
-  left: 0;
-}
-.horizontal_scroll_inner .slick-arrow.slick-prev:before {
-  content: "";
-  border-bottom: 2px solid #EF3268;
-  border-left: 2px solid #EF3268;
-  display: block;
-  width: 15px;
-  height: 15px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  position: absolute;
-  top: 50%;
-}
-
-.horizontal_scroll_inner .slick-arrow.slick-next {
-  right: 0;
-}
-.horizontal_scroll_inner .slick-arrow.slick-next:after {
-  content: "";
-  border-top: 2px solid #EF3268;
-  border-right: 2px solid #EF3268;
-  display: block;
-  width: 15px;
-  height: 15px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  position: absolute;
-  top: 50%;
-}
-
-.image {
-  width: 100%;
-}
-
-.slick-list {
-  overflow: hidden;
-}
-
-.slick-track {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.horizontal_scroll_flex {
-  width: 100%;
-  background: white;
-  margin: 0 auto;
-  position: relative;
-  z-index: 1;
-}
-.horizontal_scroll_flex:after {
-  content: "";
-  width: 100%;
-  height: 1px;
-  background: #ABA6A6;
-  display: block;
-}
-
-.btn_prev {
-  display: block;
-  position: absolute;
-  left: 18px;
-  top: 45%;
-  z-index: 2;
-  color: transparent;
-}
-.btn_prev:before {
-  content: "";
-  border-bottom: 2px solid #EF3268;
-  border-left: 2px solid #EF3268;
-  display: block;
-  width: 15px;
-  height: 15px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-
-.btn_next {
-  display: block;
-  position: absolute;
-  top: 45%;
-  right: 0;
-  z-index: 2;
-  color: transparent;
-}
-.btn_next:before {
-  content: "";
-  border-top: 2px solid #EF3268;
-  border-right: 2px solid #EF3268;
-  display: block;
-  width: 15px;
-  height: 15px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
 }
 
 .reverse {
@@ -691,7 +690,7 @@ ul, li, a {
 }
 .reviews_item:before {
   content: "";
-  background: url("/img/reviews/quote.svg") no-repeat;
+  background: url("/src/img/main/reviews/quote.svg") no-repeat;
   background-size: contain;
   width: 73px;
   height: 54px;
@@ -713,8 +712,8 @@ ul, li, a {
   margin-bottom: 30px;
 }
 
-.footer {
-  background: #EF3268;
+footer {
+  background: #000000;
 }
 
 .footer_head {
@@ -751,11 +750,38 @@ ul, li, a {
   color: #EF3268;
 }
 
-.footer_body {
-  width: 100%;
-  background: #000000;
+.footer_head {
+  background: #EF3268;
   color: white;
-  padding-bottom: 40px;
+  width: 100%;
+}
+
+.footer_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 18px 0;
+}
+.footer_btn p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer_btn a {
+  border: white 1px solid;
+  padding: 13px 45px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.footer_btn a:hover {
+  background: white;
+  color: #EF3268;
 }
 
 .footer_info-head {
@@ -869,7 +895,7 @@ ul, li, a {
           align-items: center;
   font-weight: 200;
   font-size: 13px;
-  margin: 40px 0 20px;
+  padding: 40px 0 36px;
   color: #adadad;
 }
 
@@ -952,7 +978,7 @@ ul, li, a {
 }
 
 .profession_img {
-  width: 100%;
+  width: 65%;
   max-width: 682px;
 }
 .profession_img img {
@@ -960,7 +986,8 @@ ul, li, a {
 }
 
 .profession_txt {
-  margint: 0 40px;
+  width: 35%;
+  padding: 20px 40px;
 }
 
 .profession_txt_block {

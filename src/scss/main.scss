@@ -1,60 +1,39 @@
 //base//
-@import "base/_base";
-@import "base/_reset";
-@import "base/_vars";
+@import "base/_base.scss";
+@import "base/_reset.scss";
+@import "base/_vars.scss";
 
 
 
 //foots//
-@import "fonts/fonts";
+@import "fonts/fonts.scss";
 
 
 
 
 //main//
-@import "main/header";
-@import "main/header_flex";
-@import "main/header_nav";
-@import "main/header_sub_nav";
-@import "main/form_search";
+@import "header/header.scss";
+
+@import "main/horizontal_scroll.scss";
+
+@import "main/intro.scss";
 
 
-@import "main/intro";
-@import "main/intro_row";
-@import "main/intro_inner";
-@import "main/horizontal_scroll";
-@import "main/horizontal_scroll_inner";
-@import "main/horizontal_scroll_flex";
+@import "main/reverse.scss";
 
-@import "main/reverse";
-@import "main/reverse_row";
-@import "main/reverse_form";
 
-@import "main/reviews";
-@import "main/reviews_inner";
-@import "main/reviews_row";
-@import "main/reviews_switch";
-@import "main/reviews_item";
+@import "main/reviews.scss";
 
-@import "main/footer";
-@import "main/footer_head";
-@import "main/footer_body";
-@import "main/footer_info";
-@import "main/footer_info-head";
-@import "main/footer_info-body";
-@import "main/footer_link";
-@import "main/copyright";
+
+@import "footer/footer.scss";
 
 
 
 
 
 //specialties//
-@import "specialties/specialty";
-@import "specialties/specialty_row";
-@import "specialties/specialty_block";
-@import "specialties/specialty_profession";
-@import "specialties/specialty_description";
+@import "specialties/specialty.scss";
+
 
 
 
