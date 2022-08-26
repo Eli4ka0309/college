@@ -30,3 +30,7 @@ ul, li, a {
   color: inherit;
   font-weight: inherit;
 }
+
+a, p {
+  line-height: 1.6;
+}

@@ -108,13 +108,3 @@
 .image {
   width: 100%;
 }
-
-.slick-list {
-  overflow: hidden;
-}
-
-.slick-track {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}

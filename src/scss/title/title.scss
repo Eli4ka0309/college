@@ -1,0 +1,20 @@
+.title {
+  font-size: 38px;
+  font-weight: 600;
+  padding: 60px 0 38px;
+  color: $pinkAccent;
+  position: relative;
+
+
+  &:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: $greyElement;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+  }
+
+
+}

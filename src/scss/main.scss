@@ -4,35 +4,35 @@
 @import "base/_vars.scss";
 
 
-
-//foots//
-@import "fonts/fonts.scss";
+//title//
 
 
 
-
-//main//
+//header//
 @import "header/header.scss";
 
+//main//
+@import "title/title";
 @import "main/horizontal_scroll.scss";
 
 @import "main/intro.scss";
 
-
 @import "main/reverse.scss";
-
 
 @import "main/reviews.scss";
 
 
+//footer//
 @import "footer/footer.scss";
-
-
-
-
 
 //specialties//
 @import "specialties/specialty.scss";
+
+
+//news//
+@import "news/news";
+@import "news/outsider_news";
+@import "news/news_btn";
 
 
 

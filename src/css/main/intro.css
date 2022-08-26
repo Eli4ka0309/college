@@ -2,7 +2,7 @@
   padding-bottom: 100px;
 }
 
-.title {
+.intro_title {
   font-size: 32px;
   text-align: center;
   color: #EF3268;
@@ -32,14 +32,14 @@
 
 .intro_specialty {
   width: 100%;
-  max-width: 531px;
+  max-width: 697px;
   border: 2px solid #EF3268;
   border-radius: 34px;
   padding: 31px 57px 30px 57px;
   text-align: center;
   background: #FCFAFA;
 }
-.intro_specialty .intro_title {
+.intro_specialty .specialty_title {
   text-align: center;
   font-size: 23px;
   margin-bottom: 20px;
