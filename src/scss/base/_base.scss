@@ -1,11 +1,11 @@
 html, body {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  color: black;
+  color: $bgBlack;
   width: 100%;
   margin: 0 auto;
-  background: #ffffff;
   letter-spacing: 0.03em;
+  background: $pink-accent;
 }
 
 .container {

@@ -1,33 +1,29 @@
 //base//
-@import "base/_base.scss";
-@import "base/_reset.scss";
-@import "base/_vars.scss";
-
+@import "base/base";
+@import "base/reset";
 
 //title//
 
 
-
 //header//
-@import "header/header.scss";
+@import "header/header";
+
 
 //main//
 @import "title/title";
-@import "main/horizontal_scroll.scss";
+@import "main/horizontal_scroll";
 
-@import "main/intro.scss";
+@import "main/intro";
 
-@import "main/reverse.scss";
+@import "main/reverse";
 
-@import "main/reviews.scss";
-
+@import "main/reviews";
 
 //footer//
-@import "footer/footer.scss";
+@import "footer/footer";
 
 //specialties//
-@import "specialties/specialty.scss";
-
+@import "specialties/specialty";
 
 //news//
 @import "news/news";

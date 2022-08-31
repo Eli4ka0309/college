@@ -1,6 +1,11 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
-    <inspection_tool class="SassScssResolvedByNameOnly" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="CONSIDERATION_ATTRIBUTES" />
+    <inspection_tool class="SassScssResolvedByNameOnly" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO">
+      <scope name="All Changed Files" level="TYPO" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="SassScssUnresolvedMixin" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO" />
+    <inspection_tool class="SassScssUnresolvedPlaceholderSelector" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO" />
+    <inspection_tool class="SassScssUnresolvedVariable" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO" />
   </profile>
 </component>
