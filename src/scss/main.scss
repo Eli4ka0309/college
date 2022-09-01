@@ -1,15 +1,12 @@
 //base//
+@import "base/vars";
 @import "base/base";
 @import "base/reset";
-@use 'src/scss/base/vars';
-
 
 //title//
 
-
 //header//
 @import "header/header";
-
 
 //main//
 @import "title/title";
