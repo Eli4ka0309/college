@@ -1,5 +1,4 @@
 
-
 .header {
   background: white;
   width: 100%;
@@ -12,15 +11,29 @@
 
 }
 
+.header_logo {
+  display: flex;
+  width: 100%;
+  max-width: 220px;
+  align-items: center;
 
-.header_flex{
+  p {
+    font-size: 9px;
+    margin-left: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+}
+
+.header_flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 0 10px;
 
 
-  img{
+  img {
     width: 100%;
     max-width: 50px;
   }
@@ -70,8 +83,9 @@
   }
 
 }
-.header_nav-li:hover:last-child{
-  &:after{
+
+.header_nav-li:hover:last-child {
+  &:after {
     background: transparent;
   }
 }
@@ -190,7 +204,7 @@
 
 
 .form_search {
-  border: #EF3268 1px solid;
+  border: $bgBlack 1px solid;
   border-radius: 5px;
   height: 32px;
   display: flex;
@@ -210,6 +224,7 @@
   margin-top: 4px;
   opacity: 1;
 }
+
 :focus::-webkit-input-placeholder {
   color: transparent;
   transition: 0.4s ease;
