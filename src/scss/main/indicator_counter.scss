@@ -1,0 +1,27 @@
+.indicator_counter {
+  background: $bgBlack;
+  color: $bgWhite;
+  padding: 48px 0;
+}
+
+.indicator_counter-row{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 50px
+
+}
+.indicator_counter-date{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.indicator_counter-numbers{
+  font-size: 64px;
+
+}
+.indicator_counter-txt{
+  font-size: 23px;
+  font-style: italic;
+  font-weight: 300;
+}

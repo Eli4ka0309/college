@@ -319,7 +319,7 @@ a, p {
   padding: 42px 0;
 }
 
-.news_board-inner {
+.news_board-row {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -370,59 +370,33 @@ a, p {
   margin-bottom: 15px;
 }
 
-.reverse {
+.indicator_counter {
   background: #000000;
+  color: #ffffff;
+  padding: 48px 0;
 }
 
-.reverse_row {
+.indicator_counter-row {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
+  padding: 0 50px;
+}
+
+.indicator_counter-date {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  padding-left: 50px;
-}
-.reverse_row div {
-  padding-top: 35px;
-  color: white;
-}
-.reverse_row p {
-  font-size: 36px;
-  font-weight: 800;
-  color: white;
-  margin-top: 25px;
+  align-items: center;
 }
 
-.reverse_form {
-  display: flex;
-  flex-direction: column;
-  padding: 35px 0 40px;
-  width: 100%;
-  max-width: 367px;
+.indicator_counter-numbers {
+  font-size: 64px;
 }
 
-.reverse_label {
-  padding-left: 20px;
-  background: white;
-  margin-bottom: 30px;
-}
-
-.reverse_input {
-  padding: 20px 0;
-}
-
-.reverse_btn {
-  padding: 22px 43px;
-  background: #EF3268;
-  border-radius: 8px;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  display: inline-block;
-  font-weight: 600;
-  letter-spacing: 2px;
-}
-.reverse_btn:hover {
-  box-shadow: 0 0 15px 6px rgba(250, 247, 247, 0.26);
+.indicator_counter-txt {
+  font-size: 23px;
+  font-style: italic;
+  font-weight: 300;
 }
 
 .reviews {
