@@ -316,7 +316,7 @@ a, p {
 
 .news_board {
   background: #F1F1F1;
-  padding: 42px 0;
+  padding: 42px 0 60px;
 }
 
 .news_board-row {
@@ -373,7 +373,7 @@ a, p {
 .indicator_counter {
   background: #000000;
   color: #ffffff;
-  padding: 48px 0;
+  padding: 60px 0;
 }
 
 .indicator_counter-row {
@@ -399,144 +399,143 @@ a, p {
   font-weight: 300;
 }
 
-.reviews {
-  padding: 160px 0 100px;
+.list_specialties {
+  padding: 60px 0;
+  margin: 0 auto;
 }
 
-.reviews_inner {
-  display: flex;
-  justify-content: center;
+.list_specialties_inner {
+  width: 100%;
   position: relative;
-  width: 100%;
-  padding-bottom: 133px;
+  padding: 40px 0;
 }
-.reviews_inner:before {
-  content: "";
-  background: url("/src/img/main/reviews/review_background.svg") no-repeat;
-  background-size: contain;
-  width: 1141px;
-  height: 570px;
-  display: block;
-  position: absolute;
-  z-index: -2;
-  top: -95px;
-  right: -149px;
-}
-.reviews_inner:after {
+.list_specialties_inner:before {
   content: "";
   width: 100%;
-  height: 1px;
+  height: 2px;
   background: #ABA6A6;
-  display: block;
+  position: absolute;
+  top: 0;
+}
+.list_specialties_inner:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #ABA6A6;
   position: absolute;
   bottom: 0;
 }
 
-.reviews_img {
-  margin-left: -100px;
-  z-index: 2;
-}
-
-.reviews_row {
-  width: 48%;
-  position: relative;
-  margin-left: -44px;
-  z-index: 2;
-}
-
-.reviews_switch {
-  text-align: right;
-  margin-bottom: 12px;
-}
-.reviews_switch .reviews_tittle {
-  font-size: 24px;
-  font-weight: 600;
-  color: #EF3268;
-  margin-bottom: 18px;
-}
-
-.reviews_arrows {
-  display: inline-block;
-  position: relative;
-  padding-right: 17px;
-}
-
-.reviews_prew {
-  display: block;
-  position: absolute;
-  left: -16px;
-  top: 1px;
-  z-index: 2;
-  color: transparent;
-  font-size: 5px;
-}
-.reviews_prew:before {
-  content: "";
-  border-bottom: 2px solid #000000;
-  border-left: 2px solid #000000;
-  display: block;
-  width: 9px;
-  height: 9px;
-  transform: rotate(45deg);
-}
-
-.reviews_next {
-  display: block;
-  position: absolute;
-  right: -3px;
-  top: -7px;
-  z-index: 2;
-  color: transparent;
-  font-size: 5px;
-}
-.reviews_next:after {
-  content: "";
-  border-top: 2px solid #000000;
-  border-right: 2px solid #000000;
-  display: block;
-  width: 9px;
-  height: 9px;
-  transform: rotate(45deg);
-}
-
-.reviews_item {
-  background: white;
-  box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.1019607843);
-  padding: 31px 50px 48px 46px;
-  width: 100%;
-  max-width: 610px;
+.list_specialties-title {
+  text-transform: uppercase;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-  z-index: 1;
-}
-.reviews_item p {
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  max-width: 379px;
 }
-.reviews_item:before {
-  content: "";
-  background: url("/src/img/main/reviews/quote.svg") no-repeat;
-  background-size: contain;
-  width: 73px;
-  height: 54px;
-  display: block;
-  position: absolute;
-  top: 27%;
-  left: 8%;
-  z-index: 0;
+.list_specialties-title h3 {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 900;
 }
 
-.reviews_subtitle {
-  font-size: 14px;
+.list_specialties_btn {
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  background: #EF3268;
+  padding: 16px 39px;
+  border-radius: 8px;
   font-weight: 600;
+  margin-left: 20px;
+}
+.list_specialties_btn:hover {
+  box-shadow: inset -4px -4px 6px rgba(255, 255, 255, 0.6), inset 4px 4px 6px rgba(255, 255, 255, 0.6);
 }
 
-.reviews_text {
-  font-size: 13px;
-  color: #7C7878;
-  margin-bottom: 30px;
+.list_specialties-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.image_1 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/specialties/specialties_img_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image_2 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/specialties/specialties_img_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image_3 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/specialties/specialties_img_5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image_4 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/specialties/specialties_img_4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image_5 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/specialties/specialties_img_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image_6 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/specialties/specialties_img_6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image_7 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/specialties/specialties_img_8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image_8 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/specialties/specialties_img_10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image_9 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/src/img/specialties/specialties_img_7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image_10 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/specialties/specialties_img_6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list_specialties-card_block {
+  width: 23%;
+  margin: 10px;
+  height: 168px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 15px;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.3);
+}
+.list_specialties-card_block p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 footer {
