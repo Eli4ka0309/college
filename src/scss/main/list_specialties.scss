@@ -1,5 +1,5 @@
 .list_specialties {
-  padding-top: 60px ;
+  padding-top: 60px;
   margin: 0 auto;
 }
 
@@ -63,70 +63,113 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 40px;
+
 }
 
 .image_1 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 30%), rgba(0, 0, 0, 50%)),
   url("/src/img/specialties/specialties_img_1.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+
+  &:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 30%)),
+    url("/src/img/specialties/specialties_img_1.png");
+  }
 
 }
 
+
 .image_2 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 30%), rgba(0, 0, 0, 50%)),
   url("/src/img/specialties/specialties_img_3.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  &:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 30%)),
+    url("/src/img/specialties/specialties_img_3.png");
+  }
 
 
 }
 
 .image_3 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 30%), rgba(0, 0, 0, 50%)),
   url("/src/img/specialties/specialties_img_5.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  &:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 30%)),
+    url("/src/img/specialties/specialties_img_5.png");
+  }
 
 }
 
 .image_4 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 30%), rgba(0, 0, 0, 50%)),
   url("/src/img/specialties/specialties_img_4.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  &:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 30%)),
+    url("/src/img/specialties/specialties_img_4.png");
+  }
 
 }
 
 .image_5 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 30%), rgba(0, 0, 0, 50%)),
   url("/src/img/specialties/specialties_img_2.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  &:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 30%)),
+    url("/src/img/specialties/specialties_img_2.png");
+  }
 
 }
 
 .image_6 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 30%), rgba(0, 0, 0, 50%)),
   url("/src/img/specialties/specialties_img_6.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  &:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 30%)),
+    url("/src/img/specialties/specialties_img_6.png");
+  }
 
 }
 
 .image_7 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 30%), rgba(0, 0, 0, 50%)),
   url("/src/img/specialties/specialties_img_8.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  &:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 30%)),
+    url("/src/img/specialties/specialties_img_8.png");
+  }
 
 }
 
 .image_8 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 30%), rgba(0, 0, 0, 50%)),
   url("/src/img/specialties/specialties_img_10.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  &:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 30%)),
+    url("/src/img/specialties/specialties_img_10.png");
+  }
 
 }
 
@@ -135,14 +178,24 @@
   url("/src/img/specialties/specialties_img_7.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  &:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 30%)),
+    url("/src/img/specialties/specialties_img_7.png");
+  }
 
 }
 
 .image_10 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)),
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 30%), rgba(0, 0, 0, 50%)),
   url("/src/img/specialties/specialties_img_6.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  &:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 50%), rgba(0, 0, 0, 30%)),
+    url("/src/img/specialties/specialties_img_6.png");
+  }
 
 }
 
