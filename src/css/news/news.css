@@ -1,67 +1,17 @@
-.news_row {
-  width: 100%;
-  position: relative;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 12 |   background: $bgWhite;
+ *    |               ^^^^^^^^
+ *    '
+ *   src/scss/news/news.scss 12:15  root stylesheet */
 
-.news_card {
-  display: flex;
-  border: 2px solid var(--accent);
-  position: relative;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 12 \2502    background: $bgWhite;\a    \2502                ^^^^^^^^\a    \2575 \a   src/scss/news/news.scss 12:15  root stylesheet";
 }
-.news_card:nth-of-type(even) {
-  margin: 35px 0;
-}
-
-.news_img {
-  width: 50%;
-  object-fit: cover;
-}
-
-.news_txt {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 28px 0;
-  margin: 0 68px 0 29px;
-  width: 50%;
-}
-
-.news_title {
-  font-size: 17px;
-  font-weight: 600;
-}
-
-.news_subtitle {
-  margin-top: 16px;
-}
-
-.news_link {
-  position: absolute;
-  background: var(--accent);
-  font-size: 21px;
-  height: 40px;
-  width: 40px;
-  bottom: 16px;
-  right: 16px;
-  color: transparent;
-}
-.news_link:before {
-  content: "";
-  width: 27px;
-  height: 8px;
-  background: white;
-  position: absolute;
-  top: 16px;
-  left: 7px;
-}
-.news_link:after {
-  content: "";
-  width: 8px;
-  height: 27px;
-  background: white;
-  position: absolute;
-  top: 7px;
-  left: 16px;
-}
-
-/*# sourceMappingURL=news.css.map */
