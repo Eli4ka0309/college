@@ -3,8 +3,6 @@
 @import "base/base";
 @import "base/reset";
 
-//title//
-
 //header//
 @import "header/header";
 
@@ -19,7 +17,6 @@
 @import "main/list_specialties";
 @import "main/graduates";
 
-
 //specialties//
 @import "specialties/specialty";
 
@@ -27,8 +24,15 @@
 @import "news/news";
 @import "news/outsider_news";
 @import "news/news_btn";
+
 //contacts//
 @import "contacts/contacts";
+
+//about_us//
+
+//about_us//
+@import "public_information/public_info";
+
 
 //footer//
 @import "footer/footer";
