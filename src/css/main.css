@@ -948,6 +948,58 @@ a, p {
   margin-bottom: 60px;
 }
 
+.hostel_info, .hostel_municipality, .hostel_payment {
+  padding: 40px 0;
+  width: 100%;
+}
+.hostel_info p, .hostel_municipality p, .hostel_payment p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.hostel_info p:last-child, .hostel_municipality p:last-child, .hostel_payment p:last-child {
+  margin-bottom: 0;
+}
+
+h2, h4 {
+  font-size: 23px;
+  font-weight: 600;
+  color: #EF3268;
+  margin-bottom: 15px;
+}
+
+.hostel_municipality {
+  background: #E3E2E2;
+}
+.hostel_municipality h3 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.hostel_payment_row {
+  width: 100%;
+  position: relative;
+  padding: 23px 0;
+}
+.hostel_payment_row:before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #ABA6A6;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.hostel_payment_row:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #ABA6A6;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
 .public_info_indicator-row {
   padding: 40px 0;
   display: flex;
