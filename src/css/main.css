@@ -242,13 +242,13 @@ a, p {
 }
 
 .title {
+  font-family: "Montserrat", sans-serif;
   font-size: 38px;
   padding: 120px 0 16px;
   color: #EF3268;
   position: relative;
-  font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
 }
 .title:before {
   content: "";
@@ -959,14 +959,14 @@ a, p {
 .hostel_info p:last-child, .hostel_municipality p:last-child, .hostel_payment p:last-child {
   margin-bottom: 0;
 }
-
-h2, h4 {
+.hostel_info h2, .hostel_info h4, .hostel_municipality h2, .hostel_municipality h4, .hostel_payment h2, .hostel_payment h4 {
   font-size: 23px;
   font-weight: 600;
   color: #EF3268;
   margin-bottom: 15px;
 }
 
+/*ssxsx*/
 .hostel_municipality {
   background: #E3E2E2;
 }
@@ -1152,6 +1152,54 @@ h2, h4 {
 .public_info_grid-content a {
   font-weight: 400;
   margin-bottom: 5px;
+}
+
+.management_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  position: relative;
+}
+.management_row :after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #ABA6A6;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.management_block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.management_content {
+  line-height: 1.8;
+  margin-bottom: 36px;
+  width: 100%;
+  padding-right: 30px;
+  max-width: 495px;
+}
+.management_content:nth-child(2) {
+  padding-right: 0;
+}
+.management_content h2 {
+  font-size: 21px;
+  font-weight: 500;
+  color: var(--pinkAccent);
+}
+.management_content h3 {
+  color: #393939;
+  font-size: 18px;
+  font-weight: 600;
+}
+.management_content a, .management_content p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 footer {
