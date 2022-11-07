@@ -1,7 +1,14 @@
+.management_title {
+  color: $pink-accent;
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 40px;
+}
+
 .management_row {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
+  padding-top: 40px;
   position: relative;
 
 
@@ -14,6 +21,12 @@
     bottom: 0;
     left: 0;
   }
+
+
+}
+
+.management_row:last-child:after {
+  height: 20px;
 }
 
 .management_block {
@@ -25,7 +38,7 @@
 }
 
 .management_content {
-  line-height: 1.8;
+  line-height: 1.5;
   margin-bottom: 36px;
   width: 100%;
   padding-right: 30px;
@@ -39,13 +52,17 @@
   h2 {
     font-size: 21px;
     font-weight: 500;
-    color: var(--pinkAccent);
+    color: #393939;
 
 
   }
 
+  .management_content-pinkAccent {
+    color: $pink-accent;
+  }
+
   h3 {
-    color: #393939;
+    color: black;
     font-size: 18px;
     font-weight: 600;
 
