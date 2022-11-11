@@ -8,6 +8,10 @@ html, body {
   background: #F1F1F1;
 }
 
+*:hover, :focus, :active, button, ::after, ::before, a {
+  transition: 0.1s;
+}
+
 .container {
   width: 100%;
   max-width: 1240px;
@@ -88,6 +92,7 @@ a, p {
 
 .header_nav {
   display: block;
+  padding-bottom: 2px;
 }
 
 .header_nav-ul {
@@ -129,15 +134,6 @@ a, p {
 .nav_list-active {
   position: relative;
 }
-.nav_list-active:before {
-  content: "";
-  height: 100%;
-  width: 2px;
-  position: absolute;
-  top: 0;
-  left: -17px;
-  display: none;
-}
 
 .nav_list-active:hover.nav_list-active:before {
   display: block;
@@ -168,11 +164,12 @@ a, p {
   right: -172px;
   left: 0;
   z-index: 95;
-  display: none;
   padding-top: 20px;
   background: white;
+  display: none;
   border-bottom: 0.5px solid #ABA6A6;
   color: black;
+  transition: 2s;
   transform: translate(-17px, 0);
 }
 .header_sub_nav-ul:before {
@@ -208,10 +205,10 @@ a, p {
   background: #ABA6A6;
   display: block;
   position: absolute;
-  right: -19px;
+  right: -18px;
   top: 8px;
   bottom: 0;
-  z-index: 50;
+  z-index: 30;
 }
 
 .form_search {
@@ -239,6 +236,74 @@ a, p {
   color: transparent;
   transition: 0.4s ease;
   opacity: 0;
+}
+
+.entrance_tests {
+  background: white;
+  position: absolute;
+  right: -174px;
+  top: 1px;
+  padding: 0 43px 0 35px;
+  z-index: 30;
+  display: none;
+}
+.entrance_tests:before {
+  content: "";
+  height: 100%;
+  width: 0.5px;
+  background: #ABA6A6;
+  position: absolute;
+  right: 0;
+  z-index: 50;
+}
+.entrance_tests:after {
+  content: "";
+  width: 89%;
+  height: 0.5px;
+  background: #ABA6A6;
+  position: absolute;
+  left: 19px;
+  bottom: 0;
+  z-index: 50;
+}
+
+.entrance_tests-hover:hover .entrance_tests {
+  color: black;
+  display: block;
+}
+
+.entrance_tests_link {
+  padding: 10px 0;
+  position: relative;
+}
+.entrance_tests_link:last-child {
+  margin-bottom: 30px;
+}
+.entrance_tests_link:before {
+  content: "";
+  height: 175%;
+  width: 2px;
+  background: #EF3268;
+  position: absolute;
+  top: 0;
+  left: -17px;
+  z-index: 60;
+}
+.entrance_tests_link:first-child::before {
+  content: none;
+}
+.entrance_tests_link:after {
+  content: "";
+  width: 100%;
+  height: 0.5px;
+  background: #ABA6A6;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+}
+.entrance_tests_link :hover {
+  color: #EF3268;
 }
 
 .title {
