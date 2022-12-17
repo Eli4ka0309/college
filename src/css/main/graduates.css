@@ -1,0 +1,66 @@
+.graduates {
+  padding: 40px 0;
+}
+
+.container_graduates {
+  padding-right: 0;
+}
+
+.section_title {
+  text-transform: uppercase;
+}
+
+.graduates_row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.graduates_card {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 320px;
+  margin-left: 23px;
+  scroll-snap-stop: always;
+  display: flex;
+  flex-direction: column;
+}
+.graduates_card:last-child {
+  margin-right: 23px;
+}
+
+.graduates_card-img {
+  width: 100%;
+  height: 372px;
+}
+.graduates_card-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.graduates_card-text {
+  background: #000000;
+  color: #ffffff;
+  padding: 18px 19px 10px;
+  height: 103px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: -2px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.graduates_card-text p {
+  font-size: 12px;
+}
+
+.graduates_inner-text-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+/*# sourceMappingURL=graduates.css.map */
