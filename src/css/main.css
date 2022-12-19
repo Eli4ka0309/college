@@ -1034,6 +1034,12 @@ a, p {
   font-weight: 400;
 }
 
+.contacts_map {
+  width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+}
+
 .hostel_info, .hostel_municipality, .hostel_payment {
   padding: 40px 0;
   width: 100%;

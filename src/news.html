@@ -2,27 +2,29 @@
 <html lang="uk" xmlns="">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kharkiv College of Textiles and Design</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <script src="/src/js/main.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,500;1,800&display=swap"
+          rel="stylesheet">
+    <link type="image/svg" href="icon/icon.svg" rel="shortcut icon">
 </head>
 <body>
 <header class="header">
     <div class="container">
         <div class="header_flex">
-            <a href="main.html">
+            <a href="main.html" class="header_logo">
                 <img src="img/logo.svg" alt="logo">
+                <p>Харківський фаховий коледж технологій та дизайну</p>
             </a>
             <nav class="header_nav">
                 <ul class="header_nav-ul">
                     <li class="header_nav-li">
-                        <a class="header_nav " href="main.html">Головна</a>
+                        <a class="header_nav" href="main.html">Головна</a>
                     </li>
                     <li class="header_nav-li nav_list-active ">
                         <a class="header_nav " href="#">Абітурієнту</a>
@@ -32,7 +34,7 @@
                                 <a class="header_sub_nav" href="specialties.html">Наші спеціальності</a>
                             </li>
                             <li class="header_sub_nav-li">
-                                <a class="header_sub_nav " href="#">Наші курси</a>
+                                <a class="header_sub_nav" href="#">Наші курси</a>
                             </li>
                             <li class="header_sub_nav-li">
                                 <a class="header_sub_nav" href="#">Правила прийому</a>
@@ -43,8 +45,20 @@
                             <li class="header_sub_nav-li">
                                 <a class="header_sub_nav" href="#">Рейтингові списки</a>
                             </li>
-                            <li class="header_sub_nav-li">
-                                <a class="header_sub_nav" href="#">Вступні випробування</a>
+                            <li class="header_sub_nav-li entrance_tests-hover">
+                                <a class="header_sub_nav   " href="#">Вступні випробування</a>
+                                <ul class="entrance_tests">
+                                    <li class="entrance_tests_link">
+                                        <a href="#">Розклад</a>
+                                    </li>
+                                    <li class="entrance_tests_link">
+                                        <a href="#">Результати</a>
+                                    </li>
+                                    <li class="entrance_tests_link">
+                                        <a href="consultation_admissions.html">Консультації</a>
+                                    </li>
+
+                                </ul>
                             </li>
                             <li class="header_sub_nav-li">
                                 <a class="header_sub_nav" href="#">Дні відкритих дверей</a>
@@ -64,22 +78,22 @@
                         <a class="header_nav" href="contacts.html">Контакти</a>
                     </li>
                     <li class="header_nav-li nav_list-active">
-                        <a class="header_nav " href="">Про нас</a>
+                        <a class="header_nav " href="#">Про нас</a>
 
                         <ul class="header_sub_nav-ul">
                             <li class="header_sub_nav-li">
-                                <a href="#">Загальна інформація</a>
+                                <a href="general_information.html">Загальна інформація</a>
                             </li>
                             <li class="header_sub_nav-li">
                                 <a href="#">Наші гуртожитки </a>
                             </li>
                             <li class="header_sub_nav-li">
-                                <a href="#">Керівництво</a>
+                                <a href="management.html">Керівництво</a>
                             </li>
                         </ul>
                     </li>
                     <li class="header_nav-li">
-                        <a class="header_nav" href="public_information">Публічна інформація</a>
+                        <a class="header_nav" href="public_information.html">Публічна інформація</a>
                     </li>
                     <li class="header_nav-li">
                         <form action class="form_search">
@@ -95,15 +109,15 @@
     </div>
 </header>
 <main>
-    <div class="section_title">
+    <div class="block_title">
         <div class="container">
-            <h1 class="title">Новини ХКТД</h1>
+            <h1 class="title">Новини</h1>
         </div>
     </div>
     <section class="news">
         <div class="container">
             <div class="news_row">
-                <div class="news_card" style="--accent: #EF3268">
+                <div class="news_card" >
                     <img class="news_img" src="img/news/img/news_1.png" alt="news_1">
                     <div class="news_txt">
                         <div class="news_title">
@@ -123,7 +137,7 @@
                     </div>
                     <a href="#" class="news_link">link</a>
                 </div>
-                <div class="news_card" style="--accent:#23B574">
+                <div class="news_card" >
                     <img class="news_img" src="img/news/img/news_2.png" alt="news_2">
                     <div class="news_txt">
                         <div class="news_title">
@@ -144,7 +158,7 @@
                     </div>
                     <a href="#" class="news_link">link</a>
                 </div>
-                <div class="news_card" style="--accent: #FDEE21">
+                <div class="news_card" >
                     <img class="news_img" src="img/news/img/news_3.png" alt="news_3">
                     <div class="news_txt">
                         <div class="news_title">
@@ -186,7 +200,6 @@
                 <div class="outsider_news_event">
                     <h2 class="outsider_news_title">Найближчі події:</h2>
                     <p>Через воєнний стан у нашій країні жодних заходів найближчим часом не планується.</p>
-                    <img class="news_vector" src="img/news/vector/news_vector.svg" alt="Vector">
                 </div>
             </div>
         </div>
@@ -194,7 +207,7 @@
     <section class="news">
         <div class="container">
             <div class="news_row">
-                <div class="news_card" style="--accent: #EF3268">
+                <div class="news_card">
                     <img class="news_img" src="img/news/img/news_4.png" alt="news_4">
                     <div class="news_txt">
                         <div class="news_title">
@@ -214,7 +227,7 @@
                     </div>
                     <a href="#" class="news_link">link</a>
                 </div>
-                <div class="news_card" style="--accent:#23B574">
+                <div class="news_card">
                     <img class="news_img" src="img/news/img/news_5.png" alt="news_5">
                     <div class="news_txt">
                         <div class="news_title">
@@ -235,7 +248,7 @@
                     </div>
                     <a href="#" class="news_link">link</a>
                 </div>
-                <div class="news_card" style="--accent: #FDEE21">
+                <div class="news_card" >
                     <img class="news_img" src="img/news/img/news_6.png" alt="news_6">
                     <div class="news_txt">
                         <div class="news_title">
@@ -268,13 +281,11 @@
         </div>
     </div>
 </main>
-
-
 <footer>
     <div class="footer_head">
         <div class="container">
             <div class="footer_btn">
-                <p>Зробіть перший крок на шляху до кар'єри.</p>
+                <p>Зробіть перший крок на шляху до кар'єри та оберіть омріяну спеціальність!</p>
                 <a href="#">Інформація</a>
             </div>
         </div>
@@ -285,9 +296,11 @@
             <div class="footer_info">
                 <div class="footer_info-head">
                     <div class="footer_info-title">
-                        <img src="/src/img/footer/footer_body/footer_info/footer_info-head/footer_info-social/footer_logo.svg"
-                             width="48" height="48" alt="logo">
-                        <h4>Харківський коледж текстилю та дизайну</h4>
+                        <img src="/src/img/logo.svg" alt="Kharkiv College of Technology and Design" >
+                        <h4>Харківський фаховий коледж технологій та дизайну</h4>
+                    </div>
+                    <div class="copyright">
+                        <p>© Copyright 2022 ДВНЗ «Харківський фаховий коледж технологій та дизайну».</p>
                     </div>
 
                     <div class="footer_info-social">
@@ -312,8 +325,8 @@
                 </div>
 
                 <div class="footer_info-body">
-                    <div class="footer_link">
-                        <ul class="footer_link_section">
+                    <div class="footer_info-link">
+                        <ul class="footer_link">
                             <li class="link_title">Інформація про</li>
 
                             <li class="footer_link_content">
@@ -327,9 +340,6 @@
                                 <a href="#">Самоврядування</a>
                             </li>
                             <li class="footer_link_content">
-                                <a href="#">Розклад занятть</a>
-                            </li>
-                            <li class="footer_link_content">
                                 <a href="#">Графік учбового процесу</a>
                             </li>
                             <li class="footer_link_content">
@@ -337,8 +347,7 @@
                             </li>
 
                         </ul>
-
-                        <ul class="footer_link_section">
+                        <ul class="footer_link">
                             <li class="link_title">Теми про коледж</li>
 
                             <li class="footer_link_content">
@@ -357,7 +366,7 @@
                                 <a href="specialties.html">Наші спеціальності</a>
                             </li>
                         </ul>
-                        <ul class="footer_link_section">
+                        <ul class="footer_link">
                             <li class="link_title">Посилання</li>
                             <li class="footer_link_content">
                                 <a href="#">Новини</a>
@@ -369,14 +378,11 @@
                                 <a href="#">Наші досягнення</a>
                             </li>
                             <li class="footer_link_content">
-                                <a href="#">Бібліотека</a>
-                            </li>
-                            <li class="footer_link_content">
                                 <a href="#">Рейтинги</a>
                             </li>
 
                         </ul>
-                        <ul class="footer_link_section">
+                        <ul class="footer_link">
                             <li class="link_title">Зв'яжіться з нами</li>
 
                             <li class="footer_link_content">
@@ -395,15 +401,6 @@
                                     Данилевського, 3</a>
                             </li>
                         </ul>
-                    </div>
-                </div>
-                <div class="copyright">
-                    <p class="copyright_title">© Copyright 2022 ДВНЗ "Харківський коледж текстилю та дизайну".</p>
-                    <div class="copyright_link">
-                        <p>Designed by :</p>
-                        <span>UA/UXO<a href=""> Omenyk Daniil</a></span>
-                        <span>Front-end<a href=""> Guseinova Ely</a></span>
-                        <span>Back-end<a href=""> Sashko :3</a></span>
                     </div>
                 </div>
             </div>
