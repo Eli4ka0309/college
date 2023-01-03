@@ -130,7 +130,7 @@
   z-index: 95;
   padding-top: 20px;
   background: white;
-
+  display: none;
   border-bottom: 0.5px solid #ABA6A6;
   color: black;
   transition: 2s;
@@ -224,9 +224,8 @@
   position: absolute;
   top: 0;
   right: -105%;
-
+  display: none;
   z-index: 30;
-
 
 
   &:before {
