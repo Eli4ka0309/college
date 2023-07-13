@@ -111,3 +111,21 @@
     text-decoration: revert;
   }
 }
+@media screen and (max-width: 768px){
+  .consultation_admissions_block{
+    flex-direction: column;
+  }
+  .consultation_admissions_video{
+    width: 100%;
+    &:first-child{
+      margin-bottom: 30px;
+      margin-right: 0;
+    }
+    h3{
+      font-size: 9px;
+    }
+  }
+  .consultation_admissions_link_row{
+    font-size: 14px;
+  }
+}

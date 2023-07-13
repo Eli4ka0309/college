@@ -1,29 +1,24 @@
-//base//
-@import "base/vars";
-@import "base/base";
-@import "base/reset";
+//_base//
+@import "_base/vars";
+@import "_base/base";
+@import "_base/reset";
+
 
 //header//
 @import "header/header";
 
-//main//
+//title//
 @import "title/title";
-@import "main/intro";
+//main//
+@import "main/main";
 
-@import "main/news_board";
-
-@import "main/indicator_counter";
-
-@import "main/list_specialties";
-@import "main/graduates";
 
 //specialties//
 @import "specialties/specialty";
 
 //news//
 @import "news/news";
-@import "news/outsider_news";
-@import "news/news_btn";
+
 
 //contacts//
 @import "contacts/contacts";
@@ -39,11 +34,11 @@
 
 //general_information//
 @import "general_information/history";
-@import "general_information/leadership";
+
 //for_foreigners//
 @import "for_foreigners/for_foreigners";
 //general_information//
-@import "general_information/leadership";
+
 
 //consultation_admissions
 @import "consultation_admissions/consultation_admissions";

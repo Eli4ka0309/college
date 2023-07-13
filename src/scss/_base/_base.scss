@@ -21,3 +21,20 @@ html, body {
   margin: 0 auto;
 
 }
+
+@media screen and (max-width: 425px){
+  html, body{
+    font-size: 12px;
+
+  }
+  h2{
+    font-size: 21px!important;
+  }
+  h3{
+    font-size: 18px!important;
+  }
+  p,a{
+    font-size: 14px!important;
+  }
+
+}

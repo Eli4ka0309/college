@@ -17,7 +17,7 @@
   p {
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 38px;
+    margin-bottom: 10px;
     padding-left: 60px;
     background: url("/src/img/public_information/black_indk.svg") no-repeat;
     background-size: contain;
@@ -75,12 +75,13 @@
   grid-row: 4/7;
 
 }
-.public_info_student{
- background: $bgGreySpecialties;
+
+.public_info_student {
+  background: $bgGreySpecialties;
 }
 
 .public_info_grid-student {
-  margin-bottom: 40px ;
+  margin-bottom: 40px;
   padding: 40px 0;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -173,7 +174,28 @@
 
 }
 
-
+@media screen and (max-width: 425px) {
+  .public_info_indicator-row {
+    padding: 20px 0;
+    p{
+      padding:0 ;
+      font-size: 14px;
+    }
+    span{
+      padding: 4px;
+    }
+  }
+  .public_info_grid-enrollee,
+  .public_info_grid-student{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .public_info_grid-block{
+    height: 160px;
+  }
+}
 
 
 
